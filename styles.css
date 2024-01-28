@@ -24,9 +24,13 @@ body {
 
 .row {
     display: inline-flex;
+    gap: 10px;
+    flex-grow: 1;
 }
 
 .block {
+    flex-grow: 1;
+
     background-color: var(--accent-c);
     
     padding-left: 4rem;
@@ -37,6 +41,7 @@ body {
 .navbar {
     position: fixed;
     display: flex;
+    justify-content: space-between;
 
     background-color: var(--accent-c);
 
@@ -44,7 +49,7 @@ body {
     padding-left: 4rem;
     padding-right: 4rem;
     height: 72px;
-    width: calc(100% - 20px);
+    width: calc(100% - 16px);
     border-radius: 15px;
 
     align-items: center;
@@ -54,3 +59,28 @@ body {
     margin-top: 82px;
 }
 
+.menu {
+    display: inline-flex;
+    gap: 2rem;
+}
+
+ul li {
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+.bl1 {
+    flex-grow: 1;
+}
+
+.bl2 {
+    flex-grow: 2;
+}
