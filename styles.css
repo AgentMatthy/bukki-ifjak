@@ -1,0 +1,15 @@
+:root {
+    --background-c: #cccccc;
+    --accent-c: #1F7A8C;
+    --bright: #BFDBF7;
+
+    --dark: #000;
+    --white: #fff;
+
+    --whiten: rgba(255, 255, 255, 0.13);
+    --darken: rgba(0, 0, 0, 0.13);
+}
+
+body {
+    background-color: var(--background-c);
+}
