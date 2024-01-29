@@ -18,7 +18,6 @@
 body {
     background-color: var(--background-c);
     color: var(--dark);
-    display: flex;
     gap: 10px;
 }
 
@@ -28,11 +27,28 @@ body {
     flex-grow: 1;
 }
 
+.justify {
+    justify-content: space-between;
+}
+
+.content {
+    margin-bottom: 10px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
 .block {
     flex-grow: 1;
+}
 
+.item {
     background-color: var(--accent-c);
-    
     padding-left: 4rem;
     padding-right: 4rem;
     border-radius: 15px;
@@ -75,7 +91,9 @@ ul li {
 
 
 
-
+.bl50 {
+    flex-basis: calc(100% / 2);
+}
 
 .bl1 {
     flex-grow: 1;
